@@ -35,6 +35,10 @@ html,body{
 .fmain p{
     font-size:1.5rem;
 }
+.fmain p::selection{
+    background-color: black;
+    color:white;
+}
 .nav{
     display: flex;
     justify-content: space-between;
